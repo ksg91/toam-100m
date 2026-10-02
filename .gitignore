@@ -1,0 +1,25 @@
+# environments and caches
+.venv*/
+__pycache__/
+*.pyc
+
+# generated BFCL data and outputs (BFCL prompts are not redistributed here)
+eval/bfcl/prepared/
+eval/bfcl/results/
+
+# corpora, checkpoints, exported weights
+corpus/
+runs/
+release/toam-*/
+*.pt
+*.safetensors
+*.gguf
+*.bin
+
+# data files of any kind stay out of this repo
+*.jsonl
+*.parquet
+*.json.gz
+
+# local list of private terms used by scripts/check_public.py
+scripts/denylist.txt

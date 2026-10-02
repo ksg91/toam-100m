@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use TOAM, please cite it as below."
+title: "TOAM-100M: a tiny language model for tool use and agent control"
+type: software
+authors:
+  - family-names: Gor
+    given-names: Kishan
+version: "0.2"
+date-released: "2026-10-02"
+license: Apache-2.0
+repository-code: "https://github.com/ksg91/toam-100m"
+url: "https://huggingface.co/ksg91/toam-100m-v0.2"
+keywords:
+  - tool use
+  - function calling
+  - agents
+  - small language models

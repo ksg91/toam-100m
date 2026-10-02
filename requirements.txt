@@ -1,0 +1,10 @@
+# Main environment: inference, BFCL generation, pretraining, export.
+# Lower bounds are the versions everything was tested with (Python 3.14, CUDA 13.0);
+# older versions may work but are untested.
+torch>=2.14
+transformers>=5.17
+tokenizers>=0.23
+safetensors>=0.8
+numpy>=2.0
+huggingface_hub
+pyarrow            # pretrain/train_tokenizer.py only

@@ -1,0 +1,4 @@
+# BFCL environment (prepare.py, score.py). Separate from the main environment
+# because bfcl-eval pins numpy==1.26.4 and other exact versions.
+# Tested with Python 3.12.
+bfcl-eval==2026.3.23
